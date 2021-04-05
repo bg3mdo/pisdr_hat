@@ -13,4 +13,4 @@ Set up:
 To do list:
   - Fix Linux kernal module for 24bit 96k sampling issue.
   - Adding I Q offset compansation DAC driver and test
-  - Fix Quisk freqency offset issue
+  - Fix Quisk frequency offset issue
