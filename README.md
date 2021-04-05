@@ -1,6 +1,6 @@
 # pisdr_hat
 
-This is budget Raspberry Pi SDR project by Yuan Wang (BG3MDO)
+This is a budget Raspberry Pi SDR project by Yuan Wang (BG3MDO)
 
 The aim is to make a cheaper PI HAT to do HF/6m band SDR TRX, while using Raspberry Pi to do the digital signal processing (DSP).
 
