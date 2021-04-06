@@ -6,15 +6,15 @@ This is a budget Raspberry Pi SDR project by Yuan Wang (BG3MDO)
 
 The aim is to make a cheaper PI HAT to do HF/6m band SDR TRX, while using Raspberry Pi to do the digital signal processing (DSP).
 
-Frequency range: 3.2MHz to 58MHz, in this range, Si5351 can produce good 90-degree I Q signals. It can go down to 500k-1.5MHz where is used to receive MW band radios - VCO phase will not meet 90 degree, but it is okay for demod AM signals. 
+Frequency range: 3.2MHz to 58MHz, in this range, Si5351 can produce good 90-degree I Q signals. It can go down to 500k-1.5MHz where is used to receive MW band radios - VCO phase will not meet 90 degrees, but it is okay for demod AM signals. 
 
 Currently, it uses Quisk to process signals.
 
 I have Quisk configuration files (Python scripts) attached.
 
 Set up:
-  - Raspberray OS installed
-  - Raspberray Pi 4 with PI SDR HAT pluged in - the PCB
+  - Raspberray Pi official OS installed
+  - Raspberray Pi 4 with PI SDR HAT pluged in - this project PCB
   - Install Quisk, and setup using the attached configuration Python scrips
   - Extra CM108 USB sound card for speaker and micphone
 
