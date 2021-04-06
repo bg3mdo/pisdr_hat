@@ -56,4 +56,8 @@ To do list:
   - Adding VHF/UHF RX by placing a TV dongle silicon tuner - still using I2C bus to control?
   - Adding VHF/UHF TX by adding AX5043/ADF7021 to produce a pure carrier, or maybe ADF5351? and a mixer, for example SA612, to do upconverter?
 
+This project idea is based many hams' SDR projects, this is a combine and development of current ideas, thanks to different contributors in this area.
+
+This project will follow CC-SA-BY4 license, you are free to use and modify to fit your idea in.
+
 More to follow, many thanks, DE BG3MDO
