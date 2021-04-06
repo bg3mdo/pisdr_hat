@@ -11,6 +11,5 @@ Set up:
   - Extra CM108 USB sound card for speaker and micphone
 
 To do list:
-  - Fix Linux kernal module for 24bit 96k sampling issue.
-  - Adding I Q offset compansation DAC driver and test
-  - Fix Quisk frequency offset issue
+  - Fix Quisk frequency offset issue, this is due to sound card crystal osc is not accurate.
+  - I Q need to be balanced, new HW design?
