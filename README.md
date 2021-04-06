@@ -39,7 +39,7 @@ Sound card configurations:
 Uninstall Pluseaudio, and fallback to alsa sound layer using \
 sudo apt remove pluseaudio
 
-/boot/config.txt adding the following statement to enable i2c/i2s/i2s-mmap and wm8731 device tree for Linux
+/boot/config.txt adding the following statements to enable i2c/i2s/i2s-mmap and wm8731 device tree for Linux
 
 dtparam=i2c_arm=on\
 dtparam=i2s=on\
@@ -58,6 +58,6 @@ To do list:
 
 This project idea is based many hams' SDR projects, this is a combine and development of current ideas, thanks to different contributors in this area.
 
-This project will follow CC-SA-BY4 license, you are free to use and modify to fit your idea in.
+This project will follow CC BY-SA4 license, you are free to use and modify to fit your idea in.
 
 More to follow, many thanks, DE BG3MDO
