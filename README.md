@@ -44,7 +44,7 @@ sudo apt remove pluseaudio
 dtparam=i2c_arm=on\
 dtparam=i2s=on\
 dtoverlay=i2s-mmap\
-dtoverlay=audioinjector-wm8731-audio\
+dtoverlay=audioinjector-wm8731-audio
 
 You might use alsamixer to setting wm8731, enable input and adjust gains. Max. bandwidth is 96K.
 
