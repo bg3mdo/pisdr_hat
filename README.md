@@ -2,6 +2,8 @@
 
 This is a budget Raspberry Pi SDR project by Yuan Wang (BG3MDO)
 
+2021 Easter holiday project
+
 The aim is to make a cheaper PI HAT to do HF/6m band SDR TRX, while using Raspberry Pi to do the digital signal processing (DSP).
 
 Frequency range: 3.2MHz to 58MHz, in this range, Si5351 can produce good 90-degree I Q signals. It can go down to 500k-1.5MHz where is used to receive MW band radios - VCO phase will not meet 90 degree, but it is okay for demod AM signals. 
