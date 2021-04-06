@@ -54,7 +54,7 @@ To do list:
   - Modify Linux kernel to overclock audio codec to do more bandwidth?
   - Adding RF gain stage? or ATT stage?
   - Adding VHF/UHF RX by placing a TV dongle silicon tuner - still using I2C bus to control?
-  - Adding VHF/UHF TX by adding AX5043/ADF7021 to produce a pure carrier, or maybe ADF5351? and a mixer, for example SA612, to do upconverter?
+  - Adding VHF/UHF TX by adding AX5043/ADF7021 to produce a pure carrier, or maybe ADF4351? and a mixer, for example SA612, to do upconverter?
 
 This project idea is based many hams' SDR projects, this is a combine and development of current ideas, thanks to different contributors in this area.
 
