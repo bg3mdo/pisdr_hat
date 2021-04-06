@@ -36,7 +36,7 @@ sudo apt-get install libfftw3-dev
 
 Sound card configurations:
 
-Uninstall Pluseaudio, and fallback to alsa sound layer using 
+Uninstall Pluseaudio, and fallback to alsa sound layer using \
 sudo apt remove pluseaudio
 
 /boot/config.txt adding the following statement to enable i2c/i2s/i2s-mmap and wm8731 device tree for Linux
