@@ -1,3 +1,8 @@
+# This is a testing only Python script by Yuan Wang (BG3MDO)
+# The script adding supports to Quisk for PISDR HAT
+# 6 April 2021, email: bg3mdo@gmail.com
+# Further optimisation is needed
+
 from i2c_drv import I2CDrv
 
 MCP4752_I_CH_I2C_ADDRESS_DEFAULT = 0x66
@@ -13,7 +18,7 @@ class MCP4725(object):
 
     def set_voltage(self, value, persist=False):
         # Vout = (5V * value) / 4096
-
+        # persist -> write to DAC eeprom
         if value > 4095:
             value = 4095
         if value < 0:

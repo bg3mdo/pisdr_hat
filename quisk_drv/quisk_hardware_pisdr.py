@@ -76,7 +76,7 @@ class Hardware(BaseHardware):
       pllFreq = div * vfo
       pllMult = pllFreq // self.xtalFreq
       if self.debug == 1:
-        print("Yuan Wang (BG3MDO) is requested to change freq")
+          print("Yuan Wang (BG3MDO) is requested to change freq:")
         print("Expected VFO Freq: " + str(vfo))
         print("Divider: " + str(div))
         print("Expected PLL Freq: " + str(pllFreq))
