@@ -41,10 +41,10 @@ sudo apt remove pluseaudio
 
 /boot/config.txt adding the following statement to enable i2c/i2s/i2s-mmap and wm8731 device tree for Linux
 
-dtparam=i2c_arm=on
-dtparam=i2s=on
-dtoverlay=i2s-mmap
-dtoverlay=audioinjector-wm8731-audio
+dtparam=i2c_arm=on\
+dtparam=i2s=on\
+dtoverlay=i2s-mmap\
+dtoverlay=audioinjector-wm8731-audio\
 
 You might use alsamixer to setting wm8731, enable input and adjust gains. Max. bandwidth is 96K.
 
