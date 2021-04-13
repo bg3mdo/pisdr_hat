@@ -62,7 +62,7 @@ To do list:
   - reduce the mixer cap from 47nF to 10nF (better using NPO caps), giving better 96k bandwidth, also reduce the I Q unbalance
   - increase the RX OPA gain (Rf from 10k to 33k), and reduce feedback cap to flat bandwidth (1.5nF to 47pF)
   - found I Q swapped, change the code
-  - wm8731 cause 300Hz offset, so change sound wm8731 to a 12.88MHz TCXO
+  - wm8731 cause 300Hz offset, so change sound wm8731 to a 12.288MHz TCXO
 
 This project idea is based many hams' SDR projects, this is a combine and development of current ideas, thanks to different contributors in this area.
 
