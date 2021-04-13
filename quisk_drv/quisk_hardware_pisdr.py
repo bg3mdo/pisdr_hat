@@ -76,7 +76,7 @@ class Hardware(BaseHardware):
       pllFreq = div * vfo
       pllMult = pllFreq // self.xtalFreq
       if self.debug == 1:
-          print("Yuan Wang (BG3MDO) is requested to change freq:")
+        print("Yuan Wang (BG3MDO) is requested to change freq:")
         print("Expected VFO Freq: " + str(vfo))
         print("Divider: " + str(div))
         print("Expected PLL Freq: " + str(pllFreq))
@@ -93,8 +93,8 @@ class Hardware(BaseHardware):
       self.si5351.setup_multisynth(1, self.si5351.PLL_A, div)
       self.si5351.setup_rdiv(0, self.si5351.R_DIV_1)
       self.si5351.setup_rdiv(1, self.si5351.R_DIV_1)
-      self.si5351.set_phase(0, 0)
-      self.si5351.set_phase(1, div)
+      self.si5351.set_phase(0, div)
+      self.si5351.set_phase(1, 0)
       self.si5351.reset_pll()
       self.si5351.enable_output(True)
         
