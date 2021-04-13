@@ -2,7 +2,7 @@
 
 This is a budget Raspberry Pi SDR project by Yuan Wang (BG3MDO)
 
-2021 Easter holiday project
+2021 Easter holiday project  Apr 5, 2021 （first upload V0.01）
 
 The aim is to make a cheaper PI HAT to do HF/6m band SDR TRX, while using Raspberry Pi to do the digital signal processing (DSP).
 
