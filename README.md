@@ -32,7 +32,7 @@ sudo pip3 install wxpython
 
 you also need this:
 
-sudo apt-get install libfftw3-dev
+sudo apt install libfftw3-dev
 
 Sound card configurations:
 
