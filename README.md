@@ -24,7 +24,7 @@ sudo pip3 install quisk
 
 Quisk uses wxpython, you might need to install the following to compile wxpython:
 
-sudo apt install Csudo apt install libjpeg-dev libtiff5-dev libnotify-dev libgtk2.0-dev libgtk-3-dev libsdl1.2-dev libgstreamer-plugins-base0.10-dev libwebkitgtk-dev freeglut3 freeglut3-dev
+sudo apt install libjpeg-dev libtiff5-dev libnotify-dev libgtk2.0-dev libgtk-3-dev libsdl1.2-dev libgstreamer-plugins-base0.10-dev libwebkitgtk-dev freeglut3 freeglut3-dev
 
 Then:
 
